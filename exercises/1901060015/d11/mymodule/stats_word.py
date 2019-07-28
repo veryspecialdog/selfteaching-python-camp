@@ -19,8 +19,6 @@ def stats_text_cn(text):
     #分割汉字
     t=jieba.cut(text)
  
-        
-    
     return Counter(t).most_common(100)
 
 

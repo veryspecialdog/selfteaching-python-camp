@@ -17,7 +17,11 @@ def stats_text_cn(text):
     from collections import Counter
     import jieba
     #分割汉字
+    #过滤符号
+  
     t=jieba.lcut(text)
+    
+
     #计数
     t1=Counter(t).most_common(100)
     return t1

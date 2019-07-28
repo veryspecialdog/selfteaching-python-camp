@@ -36,11 +36,6 @@ def make_P(data,image_path):
     ax.set_title('词频统计')
     fig.savefig(image_path, bbox_inches ='tight')
 
-
-
-
-
-
 def main():
     bot = Bot()
     friends = bot.friends()

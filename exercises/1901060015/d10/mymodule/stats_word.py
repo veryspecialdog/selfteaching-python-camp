@@ -23,11 +23,8 @@ def stats_text_cn(text):
     for itme in t:
         if len(itme) > 1:
             tx.append(itme)
-
-        
-    
-    return Counter(tx).most_common(100)
-
+   
+    return Counter(tx).most_common(20)
 
 def stats_text(text):
     #参数类型检查
